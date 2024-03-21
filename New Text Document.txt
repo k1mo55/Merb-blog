@@ -1,2 +1,0 @@
-1:open bash here in file
-2:
