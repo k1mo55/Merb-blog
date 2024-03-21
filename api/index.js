@@ -8,9 +8,9 @@ import postRoutes from "./routes/posts.route.js"
 import commentRoutes from "./routes/comment.route.js"
 import path from 'path';
 dotenv.config();
-
-const app = express();
 const __dirname = path.resolve();
+const app = express();
+
 app.use(express.json());
 app.use(cookieParser());
 
