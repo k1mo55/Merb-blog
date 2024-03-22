@@ -8,6 +8,7 @@ import postRoutes from "./routes/posts.route.js"
 import commentRoutes from "./routes/comment.route.js"
 import path from 'path';
 dotenv.config();
+
 const __dirname = path.resolve();
 const app = express();
 

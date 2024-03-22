@@ -130,7 +130,7 @@ export default function Search() {
               value={sidebarData.category}
               id='category'
             >
-              <option value='uncategorized'>Uncategorized</option>
+              <option value='uncategorized'>none</option>
               <option value='reactjs'>React.js</option>
               <option value='nextjs'>Next.js</option>
               <option value='javascript'>JavaScript</option>
